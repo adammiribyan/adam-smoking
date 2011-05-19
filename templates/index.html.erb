@@ -1,0 +1,9 @@
+<% render "layout", :title => "Smoking Cessation" do %>
+  <div class="container center">
+    <img src="http://cs9898.vk.com/u51197056/a_8f99917e.jpg" title="Adam" width="85" height="85" />
+    <h1>
+      <small>Quit smoking on 15 May.</small>
+      Not smoking for <em><%= pluralize(days_count_to_now(2011,5,15), 'day', 'days') %></em>.
+    </h1>
+  </div>
+<% end %>

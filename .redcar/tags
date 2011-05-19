@@ -1,0 +1,4 @@
+1305765812
+ApplicationHelper	/home/adam/Projects/adam-smoking/helpers/application_helper.rb	module ApplicationHelper
+days_count_to_now	/home/adam/Projects/adam-smoking/helpers/application_helper.rb	  def days_count_to_now(year, month, mday)
+pluralize	/home/adam/Projects/adam-smoking/helpers/application_helper.rb	  def pluralize(count, singular, plural = nil)
